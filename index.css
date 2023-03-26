@@ -96,7 +96,7 @@ body{
     background-color: rgba(255, 255, 255, 0.107);
     border: 1px solid rgba(255, 255, 255, 0.178);
     border-radius: 15px;
-    min-width: 250px;
+    min-width: 300px;
     backdrop-filter: blur(10px);
 }
 
@@ -188,7 +188,7 @@ h2{
     justify-content: center;
     flex-direction: column;
     width: 26%;
-    min-width: 200px;
+    min-width: 250px;
     height: 24%;
     background-color: rgba(0, 0, 0, 0.374);
     backdrop-filter: blur(10px);
