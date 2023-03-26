@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div class="bigbox">
+        <div class="midbox">
+            <div class="counter_app"><p style="margin: 0;">This is Counter</p></div>
+            <div class="dowb">
+                <div class="counter_button">
+                    <button onclick="dic()" style="display: flex; height: 100%;width: 30%; float: left; border: 0;background-color: rgba(0, 0, 0, 0.759);justify-content: center;text-align: center;"><p style="color: aliceblue;">-</p></button>
+                    <div class ="num" style="display: flex;height: 100%;width: 40%; float: left;color: black;">0</div>
+                    <button onclick="inc()"style="display: flex;height: 100%;width: 30%; float: left; border: 0;background-color: rgba(0, 0, 0, 0.759); justify-content: center;text-align: center;"><p style="color: aliceblue;">+</p></button>
+                </div>
+            </div>
+                
+        </div>
+    </div> -->
+    
+    <div class="c1"></div>
+    <div class="c2"></div>
+
+    <div class="wrap">
+
+        <div class="profile_box">
+
+            <div class="pfp"></div>
+            <div class="name"><h2>Girish Basandani</h2></div>
+            <div class="founder"><p>found nothing at all</p></div>
+            <div class="buttons">
+                <div onclick="document.querySelector('#shbox').style.scale=1;document.querySelector('#shbg').style.scale=1;" class="share">SHARE</div>
+                <div class="follow" >FOLLOW</div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="shbox" class="share_box">
+        <h1 class="cross"  onclick="document.querySelector('#shbox').style.scale=0;document.querySelector('#shbg').style.scale=0;">x</h1>
+        <div class="share_box_header">
+            <h2>Share My Profile</h2>
+        </div>
+        <h3 class="share_via">Share via</h3>
+        <div class="app_icons">
+            <div>fb</div>
+            <div>fb</div>
+            <div>fb</div>
+            <div>fb</div>
+            <div>fb</div>
+        </div>
+    </div>
+
+
+    <div id="shbg" class="share_bg" onclick="document.querySelector('#shbox').style.scale=0;document.querySelector('#shbg').style.scale=0;"></div>
+
+    
+    <script src="index.js"></script>
+</body>
+</html>
